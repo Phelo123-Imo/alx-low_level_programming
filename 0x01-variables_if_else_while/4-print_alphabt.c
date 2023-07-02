@@ -1,23 +1,20 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n = 97;
+	int i;
 
-	while (n <= 122)
-
+	for (i = 97; i < 123; i++)
 	{
-		if (n == 101 || n == 113)
+		if (i != 101 && i != 133)
 		{
-			n++;
-			continue;
-		putchar (n);
-		n++;
+			putchar(i);
 		}
-		putchar ('\n');
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
