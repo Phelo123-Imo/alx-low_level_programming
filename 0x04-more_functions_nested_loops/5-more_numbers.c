@@ -18,9 +18,9 @@ void more_numbers(void)
 				_putchar((x / 10) + '0');
 				_putchar((x % 10) + '0');
 		}
-		else
+		if (else)
 		{
-			_putchar(x = '0');
+			_putchar(x + '0');
 		}
 		x++;
 	}
