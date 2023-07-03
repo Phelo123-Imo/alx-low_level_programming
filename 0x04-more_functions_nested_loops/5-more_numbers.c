@@ -18,12 +18,16 @@ void more_numbers(void)
 				_putchar((x / 10) + '0');
 				_putchar((x % 10) + '0');
 		}
-		if (else)
+		 if (else)
 		{
 			_putchar(x + '0');
 		}
+
+
 		x++;
 	}
+
+
 	_putchar('\n');
 	rows++;
 }
